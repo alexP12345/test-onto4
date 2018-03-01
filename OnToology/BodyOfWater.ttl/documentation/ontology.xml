@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:schema="http://schema.org/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:dsv="http://ontologies.sti-innsbruck.at/dsv/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/baseClass -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/baseClass"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/baseEnumeration -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/baseEnumeration"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/baseProperty -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/baseProperty"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/class -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/class"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/expectedType -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/expectedType"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/isOptional -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/isOptional"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/property -->
+
+
+    <AnnotationProperty rdf:about="http://ontologies.sti-innsbruck.at/dsv/property"/>
+    
+
+
+    <!-- http://schema.org/author -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/author"/>
+    
+
+
+    <!-- http://schema.org/name -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/name"/>
+    
+
+
+    <!-- http://schema.org/schemaVersion -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/schemaVersion"/>
+    
+
+
+    <!-- http://schema.org/url -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/url"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/DomainSpecification -->
+
+
+    <Class rdf:about="http://ontologies.sti-innsbruck.at/dsv/DomainSpecification"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/EnumerationValue -->
+
+
+    <Class rdf:about="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/Property -->
+
+
+    <Class rdf:about="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/RestrictedClass -->
+
+
+    <Class rdf:about="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+    
+
+
+    <!-- http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration -->
+
+
+    <Class rdf:about="http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration"/>
+    
+
+
+    <!-- http://schema.org/DataType -->
+
+
+    <Class rdf:about="http://schema.org/DataType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/DateTime -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/DateTime">
+        <rdf:type rdf:resource="http://schema.org/DataType"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DateTime</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Friday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Friday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Monday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Monday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Number -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Number">
+        <rdf:type rdf:resource="http://schema.org/DataType"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/PublicHolidays -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/PublicHolidays">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PublicHolidays</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Saturday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Saturday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Sunday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Sunday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Text -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Text">
+        <rdf:type rdf:resource="http://schema.org/DataType"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Thursday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Thursday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Time -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Time">
+        <rdf:type rdf:resource="http://schema.org/DataType"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Tuesday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Tuesday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuesday</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/URL -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/URL">
+        <rdf:type rdf:resource="http://schema.org/DataType"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL</schema:name>
+    </NamedIndividual>
+    
+
+
+    <!-- http://schema.org/Wednesday -->
+
+
+    <NamedIndividual rdf:about="http://schema.org/Wednesday">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"/>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wednesday</schema:name>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="_:genid2">
+        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/DomainSpecification"/>
+        <dsv:class>
+            <rdf:Description rdf:nodeID="_:genid3">
+                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                <dsv:baseClass rdf:resource="http://schema.org/BodyOfWater"/>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid4">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/description"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">description</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid5">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/geo"/>
+                        <dsv:expectedType>
+                            <rdf:Description rdf:nodeID="_:genid6">
+                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                <dsv:baseClass rdf:resource="http://schema.org/GeoCoordinates"/>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid7">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/latitude"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Number"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid8">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/longitude"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Number"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitude</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeoCoordinates</schema:name>
+                            </rdf:Description>
+                        </dsv:expectedType>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geo</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid9">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/hasMap"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/URL"/>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasMap</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid10">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/image"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/URL"/>
+                        <dsv:expectedType>
+                            <rdf:Description rdf:nodeID="_:genid11">
+                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                <dsv:baseClass rdf:resource="http://schema.org/ImageObject"/>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid12">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/caption"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caption</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid13">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/height"/>
+                                        <dsv:expectedType>
+                                            <rdf:Description rdf:nodeID="_:genid14">
+                                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                                <dsv:baseClass rdf:resource="http://schema.org/QuantitativeValue"/>
+                                                <dsv:property>
+                                                    <rdf:Description rdf:nodeID="_:genid15">
+                                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                                        <dsv:baseProperty rdf:resource="http://schema.org/value"/>
+                                                        <dsv:expectedType rdf:resource="http://schema.org/Number"/>
+                                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value</schema:name>
+                                                    </rdf:Description>
+                                                </dsv:property>
+                                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuantitativeValue</schema:name>
+                                            </rdf:Description>
+                                        </dsv:expectedType>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">height</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid16">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/url"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/URL"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid17">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/width"/>
+                                        <dsv:expectedType>
+                                            <rdf:Description rdf:nodeID="_:genid18">
+                                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                                <dsv:baseClass rdf:resource="http://schema.org/QuantitativeValue"/>
+                                                <dsv:property>
+                                                    <rdf:Description rdf:nodeID="_:genid19">
+                                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                                        <dsv:baseProperty rdf:resource="http://schema.org/value"/>
+                                                        <dsv:expectedType rdf:resource="http://schema.org/Number"/>
+                                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value</schema:name>
+                                                    </rdf:Description>
+                                                </dsv:property>
+                                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuantitativeValue</schema:name>
+                                            </rdf:Description>
+                                        </dsv:expectedType>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">width</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ImageObject</schema:name>
+                            </rdf:Description>
+                        </dsv:expectedType>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid20">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/address"/>
+                        <dsv:expectedType>
+                            <rdf:Description rdf:nodeID="_:genid21">
+                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                <dsv:baseClass rdf:resource="http://schema.org/PostalAddress"/>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid22">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/name"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid23">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/postalCode"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postalCode</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid24">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/streetAddress"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streetAddress</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid25">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/telephone"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telephone</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid26">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/addressCountry"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addressCountry</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid27">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/addressLocality"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addressLocality</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid28">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/addressRegion"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addressRegion</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid29">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/email"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">email</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid30">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/faxNumber"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">faxNumber</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PostalAddress</schema:name>
+                            </rdf:Description>
+                        </dsv:expectedType>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">address</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid31">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/name"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/Text"/>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid32">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/openingHoursSpecification"/>
+                        <dsv:expectedType>
+                            <rdf:Description rdf:nodeID="_:genid33">
+                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"/>
+                                <dsv:baseClass rdf:resource="http://schema.org/OpeningHoursSpecification"/>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid34">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/closes"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Time"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">closes</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid35">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/dayOfWeek"/>
+                                        <dsv:expectedType>
+                                            <rdf:Description rdf:nodeID="_:genid36">
+                                                <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration"/>
+                                                <dsv:baseEnumeration rdf:resource="http://schema.org/DayOfWeek"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Friday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Monday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/PublicHolidays"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Saturday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Sunday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Thursday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Tuesday"/>
+                                                <dsv:expectedEnumerationValue rdf:resource="http://schema.org/Wednesday"/>
+                                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DayOfWeek</schema:name>
+                                            </rdf:Description>
+                                        </dsv:expectedType>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dayOfWeek</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid37">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/opens"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/Time"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opens</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid38">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/validFrom"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/DateTime"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">validFrom</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <dsv:property>
+                                    <rdf:Description rdf:nodeID="_:genid39">
+                                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                                        <dsv:baseProperty rdf:resource="http://schema.org/validThrough"/>
+                                        <dsv:expectedType rdf:resource="http://schema.org/DateTime"/>
+                                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">validThrough</schema:name>
+                                    </rdf:Description>
+                                </dsv:property>
+                                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpeningHoursSpecification</schema:name>
+                            </rdf:Description>
+                        </dsv:expectedType>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openingHoursSpecification</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid40">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/url"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/URL"/>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <dsv:property>
+                    <rdf:Description rdf:nodeID="_:genid41">
+                        <rdf:type rdf:resource="http://ontologies.sti-innsbruck.at/dsv/Property"/>
+                        <dsv:baseProperty rdf:resource="http://schema.org/sameAs"/>
+                        <dsv:expectedType rdf:resource="http://schema.org/URL"/>
+                        <dsv:isOptional rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dsv:isOptional>
+                        <dsv:multipleValuesAllowed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</dsv:multipleValuesAllowed>
+                        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sameAs</schema:name>
+                    </rdf:Description>
+                </dsv:property>
+                <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyOfWater</schema:name>
+            </rdf:Description>
+        </dsv:class>
+        <schema:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oleksandra</schema:author>
+        <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyOfWater</schema:name>
+        <schema:schemaVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://schema.org/version/3.2/</schema:schemaVersion>
+        <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.example.com/DomainSpecification/3A8fe9D223</schema:url>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
