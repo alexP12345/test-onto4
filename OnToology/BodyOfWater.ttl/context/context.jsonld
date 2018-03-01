@@ -1,0 +1,46 @@
+{
+  "@context" : {
+    "DataType" : {
+      "@id" : "http://schema.org/DataType"
+    },
+    "class" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/class"
+    },
+    "DomainSpecification" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/DomainSpecification"
+    },
+    "baseClass" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/baseClass"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "RestrictedEnumeration" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration"
+    },
+    "baseProperty" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/baseProperty"
+    },
+    "RestrictedClass" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/RestrictedClass"
+    },
+    "property" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/property"
+    },
+    "Property" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/Property"
+    },
+    "expectedEnumerationValue" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue"
+    },
+    "EnumerationValue" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/EnumerationValue"
+    },
+    "baseEnumeration" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/baseEnumeration"
+    },
+    "expectedType" : {
+      "@id" : "http://ontologies.sti-innsbruck.at/dsv/expectedType"
+    }
+  }
+}

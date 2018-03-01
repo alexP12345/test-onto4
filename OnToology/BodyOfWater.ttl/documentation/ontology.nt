@@ -1,0 +1,409 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.sti-innsbruck.at/dsv/baseClass
+<http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/baseEnumeration
+<http://ontologies.sti-innsbruck.at/dsv/baseEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/baseProperty
+<http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/class
+<http://ontologies.sti-innsbruck.at/dsv/class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue
+<http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/expectedType
+<http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/isOptional
+<http://ontologies.sti-innsbruck.at/dsv/isOptional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed
+<http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/property
+<http://ontologies.sti-innsbruck.at/dsv/property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/author
+<http://schema.org/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/schemaVersion
+<http://schema.org/schemaVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/url
+<http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ontologies.sti-innsbruck.at/dsv/DomainSpecification
+<http://ontologies.sti-innsbruck.at/dsv/DomainSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/EnumerationValue
+<http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/Property
+<http://ontologies.sti-innsbruck.at/dsv/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/RestrictedClass
+<http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration
+<http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://schema.org/DataType
+<http://schema.org/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/DateTime
+<http://schema.org/DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> .
+<http://schema.org/DateTime> <http://schema.org/name> "DateTime" .
+# 
+# http://schema.org/Friday
+<http://schema.org/Friday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Friday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Friday> <http://schema.org/name> "Friday" .
+# 
+# http://schema.org/Monday
+<http://schema.org/Monday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Monday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Monday> <http://schema.org/name> "Monday" .
+# 
+# http://schema.org/Number
+<http://schema.org/Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> .
+<http://schema.org/Number> <http://schema.org/name> "Number" .
+# 
+# http://schema.org/PublicHolidays
+<http://schema.org/PublicHolidays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/PublicHolidays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/PublicHolidays> <http://schema.org/name> "PublicHolidays" .
+# 
+# http://schema.org/Saturday
+<http://schema.org/Saturday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Saturday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Saturday> <http://schema.org/name> "Saturday" .
+# 
+# http://schema.org/Sunday
+<http://schema.org/Sunday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Sunday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Sunday> <http://schema.org/name> "Sunday" .
+# 
+# http://schema.org/Text
+<http://schema.org/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> .
+<http://schema.org/Text> <http://schema.org/name> "Text" .
+# 
+# http://schema.org/Thursday
+<http://schema.org/Thursday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Thursday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Thursday> <http://schema.org/name> "Thursday" .
+# 
+# http://schema.org/Time
+<http://schema.org/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> .
+<http://schema.org/Time> <http://schema.org/name> "Time" .
+# 
+# http://schema.org/Tuesday
+<http://schema.org/Tuesday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Tuesday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Tuesday> <http://schema.org/name> "Tuesday" .
+# 
+# http://schema.org/URL
+<http://schema.org/URL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/URL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> .
+<http://schema.org/URL> <http://schema.org/name> "URL" .
+# 
+# http://schema.org/Wednesday
+<http://schema.org/Wednesday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://schema.org/Wednesday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> .
+<http://schema.org/Wednesday> <http://schema.org/name> "Wednesday" .
+# 
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/DomainSpecification> .
+_:genid2 <http://ontologies.sti-innsbruck.at/dsv/class> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/BodyOfWater> .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid4 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/description> .
+_:genid4 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid4 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid4 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid4 <http://schema.org/name> "description" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid5 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/geo> .
+_:genid5 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid6 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/GeoCoordinates> .
+_:genid6 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid7 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/latitude> .
+_:genid7 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Number> .
+_:genid7 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid7 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid7 <http://schema.org/name> "latitude" .
+_:genid6 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid8 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/longitude> .
+_:genid8 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Number> .
+_:genid8 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid8 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid8 <http://schema.org/name> "longitude" .
+_:genid6 <http://schema.org/name> "GeoCoordinates" .
+_:genid5 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid5 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid5 <http://schema.org/name> "geo" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid9 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/hasMap> .
+_:genid9 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/URL> .
+_:genid9 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid9 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid9 <http://schema.org/name> "hasMap" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid10 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/image> .
+_:genid10 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/URL> .
+_:genid10 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid11 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/ImageObject> .
+_:genid11 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid12 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/caption> .
+_:genid12 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid12 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid12 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid12 <http://schema.org/name> "caption" .
+_:genid11 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid13 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/height> .
+_:genid13 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid14 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/QuantitativeValue> .
+_:genid14 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid15 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/value> .
+_:genid15 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Number> .
+_:genid15 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid15 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid15 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid15 <http://schema.org/name> "value" .
+_:genid14 <http://schema.org/name> "QuantitativeValue" .
+_:genid13 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid13 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid13 <http://schema.org/name> "height" .
+_:genid11 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid16 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/url> .
+_:genid16 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/URL> .
+_:genid16 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid16 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid16 <http://schema.org/name> "url" .
+_:genid11 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid17 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/width> .
+_:genid17 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid18 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/QuantitativeValue> .
+_:genid18 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid19 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/value> .
+_:genid19 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Number> .
+_:genid19 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid19 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid19 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid19 <http://schema.org/name> "value" .
+_:genid18 <http://schema.org/name> "QuantitativeValue" .
+_:genid17 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid17 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid17 <http://schema.org/name> "width" .
+_:genid11 <http://schema.org/name> "ImageObject" .
+_:genid10 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid10 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid10 <http://schema.org/name> "image" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid20 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/address> .
+_:genid20 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/PostalAddress> .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid22 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/name> .
+_:genid22 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid22 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid22 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid22 <http://schema.org/name> "name" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid23 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/postalCode> .
+_:genid23 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid23 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid23 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid23 <http://schema.org/name> "postalCode" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid24 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/streetAddress> .
+_:genid24 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid24 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid24 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid24 <http://schema.org/name> "streetAddress" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid25 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/telephone> .
+_:genid25 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid25 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid25 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid25 <http://schema.org/name> "telephone" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid26 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/addressCountry> .
+_:genid26 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid26 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid26 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid26 <http://schema.org/name> "addressCountry" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid27 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/addressLocality> .
+_:genid27 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid27 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid27 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid27 <http://schema.org/name> "addressLocality" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid28 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/addressRegion> .
+_:genid28 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid28 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid28 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid28 <http://schema.org/name> "addressRegion" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid29 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/email> .
+_:genid29 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid29 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://schema.org/name> "email" .
+_:genid21 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid30 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/faxNumber> .
+_:genid30 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid30 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://schema.org/name> "faxNumber" .
+_:genid21 <http://schema.org/name> "PostalAddress" .
+_:genid20 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid20 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid20 <http://schema.org/name> "address" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid31 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/name> .
+_:genid31 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Text> .
+_:genid31 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid31 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid31 <http://schema.org/name> "name" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid32 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/openingHoursSpecification> .
+_:genid32 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedClass> .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/baseClass> <http://schema.org/OpeningHoursSpecification> .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid34 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/closes> .
+_:genid34 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Time> .
+_:genid34 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid34 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid34 <http://schema.org/name> "closes" .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid35 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/dayOfWeek> .
+_:genid35 <http://ontologies.sti-innsbruck.at/dsv/expectedType> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/RestrictedEnumeration> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/baseEnumeration> <http://schema.org/DayOfWeek> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Friday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Monday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/PublicHolidays> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Saturday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Sunday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Thursday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Tuesday> .
+_:genid36 <http://ontologies.sti-innsbruck.at/dsv/expectedEnumerationValue> <http://schema.org/Wednesday> .
+_:genid36 <http://schema.org/name> "DayOfWeek" .
+_:genid35 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid35 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid35 <http://schema.org/name> "dayOfWeek" .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid37 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/opens> .
+_:genid37 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/Time> .
+_:genid37 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid37 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid37 <http://schema.org/name> "opens" .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid38 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/validFrom> .
+_:genid38 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/DateTime> .
+_:genid38 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid38 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid38 <http://schema.org/name> "validFrom" .
+_:genid33 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid39 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/validThrough> .
+_:genid39 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/DateTime> .
+_:genid39 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid39 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid39 <http://schema.org/name> "validThrough" .
+_:genid33 <http://schema.org/name> "OpeningHoursSpecification" .
+_:genid32 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid32 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid32 <http://schema.org/name> "openingHoursSpecification" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid40 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/url> .
+_:genid40 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/URL> .
+_:genid40 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid40 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid40 <http://schema.org/name> "url" .
+_:genid3 <http://ontologies.sti-innsbruck.at/dsv/property> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontologies.sti-innsbruck.at/dsv/Property> .
+_:genid41 <http://ontologies.sti-innsbruck.at/dsv/baseProperty> <http://schema.org/sameAs> .
+_:genid41 <http://ontologies.sti-innsbruck.at/dsv/expectedType> <http://schema.org/URL> .
+_:genid41 <http://ontologies.sti-innsbruck.at/dsv/isOptional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid41 <http://ontologies.sti-innsbruck.at/dsv/multipleValuesAllowed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid41 <http://schema.org/name> "sameAs" .
+_:genid3 <http://schema.org/name> "BodyOfWater" .
+_:genid2 <http://schema.org/author> "Oleksandra" .
+_:genid2 <http://schema.org/name> "BodyOfWater" .
+_:genid2 <http://schema.org/schemaVersion> "https://schema.org/version/3.2/" .
+_:genid2 <http://schema.org/url> "http://www.example.com/DomainSpecification/3A8fe9D223" .
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
