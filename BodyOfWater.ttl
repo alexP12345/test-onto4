@@ -1,0 +1,320 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0: <http://ontologies.sti-innsbruck.at/dsv/> .
+
+schema:Text
+  a schema:DataType ;
+  schema:name "Text"^^xsd:string .
+
+schema:Number
+  a schema:DataType ;
+  schema:name "Number"^^xsd:string .
+
+schema:URL
+  a schema:DataType ;
+  schema:name "URL"^^xsd:string .
+
+schema:Time
+  a schema:DataType ;
+  schema:name "Time"^^xsd:string .
+
+schema:Wednesday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Wednesday"^^xsd:string .
+
+schema:Sunday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Sunday"^^xsd:string .
+
+schema:PublicHolidays
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "PublicHolidays"^^xsd:string .
+
+schema:Tuesday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Tuesday"^^xsd:string .
+
+schema:Monday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Monday"^^xsd:string .
+
+schema:Friday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Friday"^^xsd:string .
+
+schema:Saturday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Saturday"^^xsd:string .
+
+schema:Thursday
+  a <http://ontologies.sti-innsbruck.at/dsv/EnumerationValue> ;
+  schema:name "Thursday"^^xsd:string .
+
+schema:DateTime
+  a schema:DataType ;
+  schema:name "DateTime"^^xsd:string .
+
+[]
+  a <http://ontologies.sti-innsbruck.at/dsv/DomainSpecification> ;
+  ns0:class [
+    a ns0:RestrictedClass ;
+    ns0:baseClass schema:BodyOfWater ;
+    ns0:property [
+      a ns0:Property ;
+      ns0:baseProperty schema:address ;
+      ns0:expectedType [
+        a ns0:RestrictedClass ;
+        ns0:baseClass schema:PostalAddress ;
+        ns0:property [
+          a ns0:Property ;
+          ns0:baseProperty schema:addressCountry ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "addressCountry"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:addressLocality ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "addressLocality"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:addressRegion ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "addressRegion"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:email ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "email"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:faxNumber ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional true ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "faxNumber"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:name ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "name"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:postalCode ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "postalCode"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:streetAddress ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "streetAddress"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:telephone ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "telephone"^^xsd:string
+        ] ;
+        schema:name "PostalAddress"^^xsd:string
+      ] ;
+      ns0:isOptional false ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "address"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:description ;
+      ns0:expectedType schema:Text ;
+      ns0:isOptional false ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "description"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:geo ;
+      ns0:expectedType [
+        a ns0:RestrictedClass ;
+        ns0:baseClass schema:GeoCoordinates ;
+        ns0:property [
+          a ns0:Property ;
+          ns0:baseProperty schema:latitude ;
+          ns0:expectedType schema:Number ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "latitude"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:longitude ;
+          ns0:expectedType schema:Number ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "longitude"^^xsd:string
+        ] ;
+        schema:name "GeoCoordinates"^^xsd:string
+      ] ;
+      ns0:isOptional true ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "geo"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:hasMap ;
+      ns0:expectedType schema:URL ;
+      ns0:isOptional true ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "hasMap"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:image ;
+      ns0:expectedType schema:URL, [
+        a ns0:RestrictedClass ;
+        ns0:baseClass schema:ImageObject ;
+        ns0:property [
+          a ns0:Property ;
+          ns0:baseProperty schema:caption ;
+          ns0:expectedType schema:Text ;
+          ns0:isOptional true ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "caption"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:height ;
+          ns0:expectedType [
+            a ns0:RestrictedClass ;
+            ns0:baseClass schema:QuantitativeValue ;
+            ns0:property [
+              a ns0:Property ;
+              ns0:baseProperty schema:value ;
+              ns0:expectedType schema:Text, schema:Number ;
+              ns0:isOptional false ;
+              ns0:multipleValuesAllowed false ;
+              schema:name "value"^^xsd:string
+            ] ;
+            schema:name "QuantitativeValue"^^xsd:string
+          ] ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "height"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:url ;
+          ns0:expectedType schema:URL ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "url"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:width ;
+          ns0:expectedType [
+            a ns0:RestrictedClass ;
+            ns0:baseClass schema:QuantitativeValue ;
+            ns0:property [
+              a ns0:Property ;
+              ns0:baseProperty schema:value ;
+              ns0:expectedType schema:Text, schema:Number ;
+              ns0:isOptional false ;
+              ns0:multipleValuesAllowed false ;
+              schema:name "value"^^xsd:string
+            ] ;
+            schema:name "QuantitativeValue"^^xsd:string
+          ] ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "width"^^xsd:string
+        ] ;
+        schema:name "ImageObject"^^xsd:string
+      ] ;
+      ns0:isOptional false ;
+      ns0:multipleValuesAllowed true ;
+      schema:name "image"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:name ;
+      ns0:expectedType schema:Text ;
+      ns0:isOptional false ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "name"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:openingHoursSpecification ;
+      ns0:expectedType [
+        a ns0:RestrictedClass ;
+        ns0:baseClass schema:OpeningHoursSpecification ;
+        ns0:property [
+          a ns0:Property ;
+          ns0:baseProperty schema:closes ;
+          ns0:expectedType schema:Time ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "closes"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:dayOfWeek ;
+          ns0:expectedType [
+            a ns0:RestrictedEnumeration ;
+            ns0:baseEnumeration schema:DayOfWeek ;
+            ns0:expectedEnumerationValue schema:Wednesday, schema:Sunday, schema:PublicHolidays, schema:Tuesday, schema:Monday, schema:Friday, schema:Saturday, schema:Thursday ;
+            schema:name "DayOfWeek"^^xsd:string
+          ] ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed true ;
+          schema:name "dayOfWeek"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:opens ;
+          ns0:expectedType schema:Time ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "opens"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:validFrom ;
+          ns0:expectedType schema:DateTime ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "validFrom"^^xsd:string
+        ], [
+          a ns0:Property ;
+          ns0:baseProperty schema:validThrough ;
+          ns0:expectedType schema:DateTime ;
+          ns0:isOptional false ;
+          ns0:multipleValuesAllowed false ;
+          schema:name "validThrough"^^xsd:string
+        ] ;
+        schema:name "OpeningHoursSpecification"^^xsd:string
+      ] ;
+      ns0:isOptional true ;
+      ns0:multipleValuesAllowed true ;
+      schema:name "openingHoursSpecification"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:url ;
+      ns0:expectedType schema:URL ;
+      ns0:isOptional false ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "url"^^xsd:string
+    ], [
+      a ns0:Property ;
+      ns0:baseProperty schema:sameAs ;
+      ns0:expectedType schema:URL ;
+      ns0:isOptional true ;
+      ns0:multipleValuesAllowed false ;
+      schema:name "sameAs"^^xsd:string
+    ] ;
+    schema:name "BodyOfWater"^^xsd:string
+  ] ;
+  schema:author "Oleksandra"^^xsd:string ;
+  schema:name "BodyOfWater"^^xsd:string ;
+  schema:schemaVersion "https://schema.org/version/3.2/"^^xsd:string ;
+  schema:url "http://www.example.com/DomainSpecification/3A8fe9D223"^^xsd:string .
